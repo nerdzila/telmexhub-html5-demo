@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Demo de HTML5</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  
+  <link rel="stylesheet" href="css/demo.css" media="screen">
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1>Documental "Me casé con un geek"</h1>
+      <h2>Una producción de Lucy Meneses</h2>
+    </hgroup>
+  </header>
+  
+  <article>
+        <video id="documental">
+          <source src="video/documental.mp4" type="video/mp4">
+          <source src="video/documental.webm" type="video/webm">
+        </video>
+        <canvas id="progress-bar" width="340" height="20">
+          
+        </canvas>
+        <div id="controls">
+          <button id="play">▸</button>
+          <button id="pause">❙❙</button>
+          <button id="stop">◾</button>
+        </div>
+  </article>
+  
+</body>
