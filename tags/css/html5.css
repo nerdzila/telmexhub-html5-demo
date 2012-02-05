@@ -1,0 +1,68 @@
+body {
+  background: #EEE;
+  font-family: arial, helvetica, sans-serif;
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body > header {
+  margin: 0;
+  background: #333;
+  color: #EEE;
+}
+
+body > header h1, 
+body > header h2 {
+  margin: 0 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a{
+  color: #FFF;
+}
+
+#posts {
+  width: 450px;
+  float: left;
+}
+
+.post {
+  margin-bottom: 20px
+}
+
+.post footer {
+  background: #DDD;
+  padding: 5px
+}
+
+figure {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+figcaption {
+  display: block;
+  color: #777;
+  font-style: italic;
+}
+
+#sidebar {
+  width: 200px;
+  float: right;
+}
+
+footer {
+  clear: both;
+  margin-top:30px;
+  padding-top: 20px;
+  border-top: solid 1px #333;
+}
